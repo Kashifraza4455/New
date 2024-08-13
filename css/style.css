@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    z-index: 999;
+}
+nav img{
+    animation: wobble 8s ease-in-out infinite normal;
+}
+.nav-link:hover {
+    color: white;
+}
+
+.header a {
+    padding: 7px 25px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.header1 {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+.slider {
+    position: absolute;
+    top: 45%;
+    left: 27%;
+}
+
+.slider h2 {
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+.slider2 a {
+    padding: 7px 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 0px 250px;
+}
+
+
+/* mouse animation css start */
+
+.scroll-down-animation {
+    position: absolute;
+    top: 150%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+}
+
+#section1 {
+    position: relative;
+}
+
+.down_h2 {
+    color: #fff;
+    font-family: 'SF UI Display';
+    font-weight: 200;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.mouse {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    height: 80px;
+    width: 45px;
+    position: relative;
+}
+
+.move {
+    position: absolute;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: move 2s linear infinite;
+}
+.scroll{
+    position: relative;
+    z-index: 999;
+    top: -270px;
+    left: -20px;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-50%, 10px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(-50%, 40px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, 80px);
+        opacity: 0;
+    }
+}
+
+/* mouse animation css end */
+.main {
+    background-image: url(../images/bac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 60px 60px 0px;
+}
+.main1 img{
+    margin: 0px -80px
+}
+.main2  h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+.main2 p{
+    font-size: 20px;
+    width: 793px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.main2 a{
+    float: right;
+    padding: 10px 20px;
+    border: 2px solid #FFFFFF;
+    color: white;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.main2 a::before{
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+    border-bottom: 1px solid white;
+    width: 33%;
+}
+.main3{
+    position: relative;
+    top: -250px;
+}
+.main3 img{
+    width: 480px;
+    padding: 20px;
+}
+.main4{
+    position: relative;
+    top: 40px;
+    left: -100px;
+}
+
+.main5{
+    background-image:url(../images/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 60px 60px 0px;
+}
+.main6 h2{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+.main6 span{
+    float: right;
+}
+.main7{
+    position: relative;
+    top: 100px;
+}
+.main7 img{
+    width: 596px;
+}
+.main8{
+    position: relative;
+    top: -30%;
+    left: 20%;
+}
+.main8 img{
+    width: 596px;
+}
+.main9{
+    position: relative;
+    top: 15%;
+    left: 120%;
+}
+.main9 p{
+    width: 596px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.gallery{
+    background-image: url(../images/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 60px 60px 0px;
+}
+.gallery1 img{
+    width: 540px;
+}
+.gallery1{
+    position: relative;
+}
+.gallery2{
+    position: relative;
+    left: 80px;
+}
+#gallery1{
+    margin: 40px 0px;
+}
+.gallery1 a{
+    padding: 15px 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+}
+
+.new {
+    background-image: url(../images/slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 60px 500px 0px;
+}
+.buttons a{
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+}
+.form{
+    background-image: url(../images/slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 270px 60px 150px 0px;
+}
+.form .box{
+    width: 566px;
+    box-shadow: 0px 3px 30px #00000061;
+    border: 1px solid #707070;
+    opacity: 1;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    padding: 50px 50px;
+}
+.form .box h2{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+.form .box p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 480px;
+
+}
+.form .box1 {
+    position: relative;
+    top: 10px;
+}
+.form .box1 a{
+    padding: 10px 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.form .box2{
+    position: relative;
+    left: 150px;
+    top: -15px;
+}
+.form .box2 a{
+    padding: 10px 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.form .box3{
+    position: relative;
+    top: -50px;
+}
+.form .box3 img{
+    width: 56px;
+    float: right;
+}
+.footer{
+    background-image: url(../images/img7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 60px 60px 0px;
+}
+.footer h4{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.footer1{
+    position: relative;
+    left: 80px;
+}
+.footer1 p{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 20px 0px;
+}
+
+.footer .images img{
+    width: 47px;
+    margin: 10px;
+}
+.footer .links{
+    position: relative;
+    left: 120px;
+}
+.footer .links h2{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.footer .links ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+    margin: 0px -30px;
+}
+.footer .links ul li a{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.footer .contact{
+    position: relative;
+    left: 100px;
+}
+.footer .contact h2{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.footer .contact h3{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.footer .contact p{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: gray;
+}
